@@ -1,7 +1,7 @@
 #define NOMINMAX
 #include "SimpleVoronoiIsland.hpp"
 #include "DungeonTemplateOutput.hpp"
-#include "DxLib.h"
+#include <DxLib.h>
 #include <array>
 #include <bitset>
 
@@ -46,20 +46,12 @@ void VMain() {
 
 //前処理関数
 int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, std::int_fast32_t) {
-	//log出力停止
 	SetOutApplicationLogValidFlag(FALSE);
-	//ウィンドウモード変更
 	ChangeWindowMode(TRUE);
-	//画面サイズの決定
 	SetGraphMode(window_map_size_x, window_map_size_y, 32);
-	//初期化
 	DxLib_Init();
-	//裏画面設定
 	SetDrawScreen(DX_SCREEN_BACK);
-	//タイトル文字
 	SetMainWindowText("Voronoi");
-	//メイン関数
 	VMain();
-	//DXライブラリの終了処理
 	return DxLib_End();
 }
