@@ -7,6 +7,10 @@ DTL (Dungeon Template Library)
 
 ![voronoi](https://github.com/Kasugaccho/DTL_SimpleVoronoiIsland/blob/master/picture/voronoi.gif)
 
+|MSVC|GCC|Clang|
+|:---|:---|:---|
+|![cl](https://img.shields.io/badge/cl%2014.10-passing-brightgreen.svg)|![gcc](https://img.shields.io/badge/gcc%205.1.0-passing-brightgreen.svg)|![clang](https://img.shields.io/badge/clang%203.5.0-passing-brightgreen.svg)|
+
 ## License
 
 These codes are licensed under CC0.
