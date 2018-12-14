@@ -5,11 +5,11 @@ DTL (Dungeon Template Library)
 
 # Compiler
 
-|Compiler|Pass|
-|:---|:---|
-|MSVC|![cl](https://img.shields.io/badge/cl%2014.10-passing-brightgreen.svg)|
-|GCC|![gcc](https://img.shields.io/badge/gcc%205.1.0-passing-brightgreen.svg)|
-|Clang|![clang](https://img.shields.io/badge/clang%203.5.0-passing-brightgreen.svg)|
+|Compiler|Pass|Test|
+|:---|:---|:---|
+|MSVC|![cl](https://img.shields.io/badge/cl%2014.10-passing-brightgreen.svg)|None|
+|GCC|![gcc](https://img.shields.io/badge/gcc%205.1.0-passing-brightgreen.svg)|[Wandbox](https://wandbox.org/permlink/ptNcR2SIufjeWZJp)|
+|Clang|![clang](https://img.shields.io/badge/clang%203.5.0-passing-brightgreen.svg)|[Wandbox](https://wandbox.org/permlink/oWqCZambD9Kx0H0g)|
 
 # Overview
 
