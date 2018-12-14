@@ -139,7 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DungeonTemplateOutput.hpp" />
-    <ClInclude Include="Random.hpp" />
+    <ClInclude Include="DungeonRandom.hpp" />
     <ClInclude Include="SimpleVoronoiIsland.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

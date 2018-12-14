@@ -16,8 +16,8 @@ template<typename Vector_>
 void output(const Vector_& vec_) {
 	for (size_t y{}; y < vec_.size(); ++y) {
 		for (size_t x{}; x < vec_[y].size(); ++x) {
-			if (vec_[y][x]) DrawPixel((int)x, (int)y, GetColor(119,103,52));//63, 155, 76
-			else DrawPixel((int)x, (int)y, GetColor(208, 187 - rnd(20), 122 - rnd(20)));//97, 154, 223
+			if (vec_[y][x]) DrawPixel((int)x, (int)y, GetColor(63, 155, 76));//63, 155, 76//119,103,52
+			else DrawPixel((int)x, (int)y, GetColor(47, 104, 173));//97, 154, 223//208, 187 - rnd(20), 122 - rnd(20)
 		}
 	}
 }
@@ -37,8 +37,8 @@ void VMain() {
 	while (mainLoop()) {
 		if (++now_time < max_time) continue;
 		diagram.init();
-		diagram.create(col, 100, 0.5);
-		dtl::noiseShoreBool(col, 0.5);
+		diagram.create(col, 200, 0.3);
+		dtl::noiseShoreBool(col, 0.4);
 		output(col);
 		now_time = 0;
 	}
