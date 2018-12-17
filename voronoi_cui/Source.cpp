@@ -4,8 +4,8 @@
 #include <bitset>
 
 int main() {
-	std::array<std::bitset<96>, 64> col{ {} };
-	dtl::SimpleVoronoiIsland<bool> diagram(col, 100, 0.5);
-	dtl::noiseShoreBool(col, 0.5);
-	dtl::outputBoolBitSet(col, "*", " ");
+	std::array<std::bitset<96>, 64> dungeon{ {} };
+	dtl::SimpleVoronoiIsland<bool> dungeon_creater(dungeon, 100, 0.5);
+	dtl::noiseShoreBool(dungeon, 0.5);
+	dtl::outputBoolBitSet(dungeon, "*", " ");
 }
