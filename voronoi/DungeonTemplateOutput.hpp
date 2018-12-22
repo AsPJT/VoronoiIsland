@@ -1,5 +1,5 @@
-#ifndef INCLUDED_DUNGEON_TEMPLATE_LIBRARY_DUNGEON_TEMPLATE_OUTPUT
-#define INCLUDED_DUNGEON_TEMPLATE_LIBRARY_DUNGEON_TEMPLATE_OUTPUT
+Ôªø#ifndef INCLUDED_DUNGEON_TEMPLATE_LIBRARY_DUNGEON_OUTPUT
+#define INCLUDED_DUNGEON_TEMPLATE_LIBRARY_DUNGEON_OUTPUT
 //:::::----------::::::::::----------::::://
 //     Dungeon Template Library     //
 //          Made by Gaccho.          //
@@ -8,71 +8,107 @@
 
 #include <cstddef>
 #include <iostream>
+#include <string>
+#include <vector>
 
 //Dungeon Template Library Namespace
 namespace dtl {
-
-	//èoóÕ
+	//Êï∞ÂÄ§Âá∫Âäõ
 	template<typename STL_>
-	constexpr void outputBool(const STL_& vec_, const char* const true_str_, const char* const false_str_) noexcept {
-		for (const auto& i : vec_) {
-			for (const auto& j : i) {
-				if (j) std::cout << true_str_;
-				else std::cout << false_str_;
-			}
+	constexpr void dungeonNumberOutput(const STL_& stl_) noexcept {
+		for (std::size_t i{}; i < stl_.size(); ++i) {
+			for (std::size_t j{}; j < stl_[i].size(); ++j)
+				std::cout << stl_[i][j];
 			std::cout << std::endl;
 		}
 	}
-
 	template<typename STL_>
-	constexpr void outputBoolBitSet(const STL_& vec_, const char* const true_str_, const char* const false_str_) noexcept {
-		for (const auto& i : vec_) {
-			for (std::size_t j = 0; j < i.size(); ++j) {
-				if (i[j]) std::cout << true_str_;
-				else std::cout << false_str_;
-			}
-			std::cout << std::endl;
-		}
-	}
-
-	template<typename STL_>
-	constexpr void output(const STL_& vec_, const char* const str_) noexcept {
-		for (const auto& i : vec_) {
+	constexpr void dungeonNumberOutput_RangeBasedFor(const STL_& stl_) noexcept {
+		for (const auto& i : stl_) {
 			for (const auto& j : i)
-				std::cout << j << str_;
+				std::cout << j;
+			std::cout << std::endl;
+		}
+	}
+	template<typename STL_>
+	constexpr void dungeonNumberOutput(const STL_& stl_, const char* const string_) noexcept {
+		if (string_ == nullptr) return;
+		for (std::size_t i{}; i < stl_.size(); ++i) {
+			for (std::size_t j{}; j < stl_[i].size(); ++j)
+				std::cout << stl_[i][j] << string_;
+			std::cout << std::endl;
+		}
+	}
+	template<typename STL_>
+	constexpr void dungeonNumberOutput_RangeBasedFor(const STL_& stl_, const char* const string_) noexcept {
+		if (string_ == nullptr) return;
+		for (const auto& i : stl_) {
+			for (const auto& j : i)
+				std::cout << j << string_;
+			std::cout << std::endl;
+		}
+	}
+	//ÊñáÂ≠óÂá∫Âäõ
+	template<typename STL_>
+	constexpr void dungeonStringOutputBool(const STL_& stl_, const char* const true_, const char* const false_) noexcept {
+		if (true_ == nullptr || false_ == nullptr) return;
+		for (std::size_t i{}; i < stl_.size(); ++i) {
+			for (std::size_t j{}; j < stl_[i].size(); ++j) {
+				if (stl_[i][j]) std::cout << true_;
+				else std::cout << false_;
+			}
+			std::cout << std::endl;
+		}
+	}
+	template<typename STL_>
+	constexpr void dungeonStringOutputBool_RangeBasedFor(const STL_& stl_, const char* const true_, const char* const false_) noexcept {
+		if (true_ == nullptr || false_ == nullptr) return;
+		for (const auto& i : stl_) {
+			for (const auto& j : i) {
+				if (j) std::cout << true_;
+				else std::cout << false_;
+			}
 			std::cout << std::endl;
 		}
 	}
 
-	template<typename STL_, typename Int_>
-	constexpr void noiseBool(STL_& vec_, const double rbool_, const Int_ true_tile_ = 1, const Int_ false_tile_ = 0) noexcept {
-		for (auto&& i : vec_)
-			for (auto&& j : i) {
-				if (!rnd.randBool(rbool_)) continue;
-				if (j) j = false_tile_;
-				else j = true_tile_;
+	bool dungeonStringOutput_String(std::vector<std::string>& string_) noexcept { return string_.empty(); }
+	template<typename First_, typename ...Args_>
+	constexpr void dungeonStringOutput_String(std::vector<std::string>& string_vector_, const First_& first_, const Args_&... args_) noexcept {
+		string_vector_.emplace_back(std::string(first_));
+		dungeonStringOutput_String(string_vector_, args_...);
+	}
+	template<typename STL_, typename First_, typename ...Args_>
+	void dungeonStringOutput(const STL_& stl_, const First_& first_, const Args_&... args_) noexcept {
+		std::vector<std::string> string_vector;
+		string_vector.emplace_back(std::string(first_));
+		dungeonStringOutput_String(string_vector, args_...);
+
+		for (std::size_t i{}; i < stl_.size(); ++i) {
+			for (std::size_t j{}; j < stl_[i].size(); ++j) {
+				if ((std::size_t)stl_[i][j] >= string_vector.size()) continue;
+				std::cout << string_vector[((std::size_t)stl_[i][j])];
 			}
+			std::cout << std::endl;
+		}
+	}
+	template<typename STL_, typename First_, typename ...Args_>
+	void dungeonStringOutput_RangeBasedFor(const STL_& stl_, const First_& first_, const Args_&... args_) noexcept {
+		std::vector<std::string> string_vector;
+		string_vector.emplace_back(std::string(first_));
+		dungeonStringOutput_String(string_vector, args_...);
+
+		for (const auto& i : stl_) {
+			for (const auto& j : i) {
+				if ((std::size_t)j >= string_vector.size()) continue;
+				std::cout << string_vector[((std::size_t)j)];
+			}
+			std::cout << std::endl;
+		}
 	}
 
-	//ÉmÉCÉYÇî≠ê∂Ç≥ÇπÇÈ
-	template<typename STL_>
-	constexpr void noiseShoreBool(STL_& vec_, const double rbool_) noexcept {
-		for (std::size_t i{ 1 }; i < vec_.size(); ++i)
-			for (std::size_t j{ 1 }; j < vec_[i].size(); ++j) {
-				if (!rnd.randBool(rbool_) || (vec_[i][j] == vec_[i][j - 1] && vec_[i][j] == vec_[i - 1][j])) continue;
-				if (vec_[i][j]) vec_[i][j] = false;
-				else vec_[i][j] = true;
-			}
-	}
-	template<typename STL_, typename Int_>
-	constexpr void noiseShore(STL_& vec_, const double rbool_, const Int_ true_tile_ = 1, const Int_ false_tile_ = 0) noexcept {
-		for (std::size_t i{ 1 }; i < vec_.size(); ++i)
-			for (std::size_t j{ 1 }; j < vec_[i].size(); ++j) {
-				if (!rnd.randBool(rbool_) || (vec_[i][j] == vec_[i][j - 1] && vec_[i][j] == vec_[i - 1][j])) continue;
-				if (vec_[i][j]) vec_[i][j] = false_tile_;
-				else vec_[i][j] = true_tile_;
-			}
-	}
+
+
 }
 
 #endif //Included Dungeon Template Library

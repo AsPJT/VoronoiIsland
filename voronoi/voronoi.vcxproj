@@ -138,6 +138,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DungeonNoise.hpp" />
     <ClInclude Include="DungeonTemplateOutput.hpp" />
     <ClInclude Include="DungeonRandom.hpp" />
     <ClInclude Include="SimpleVoronoiIsland.hpp" />
