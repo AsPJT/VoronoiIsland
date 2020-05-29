@@ -29,4 +29,3 @@ These codes are licensed under CC0.
 |E-mail:|wanotaitei@gmail.com|
 |:---|:---|
 |![svg](https://Kasugaccho.github.io/DungeonPicture/Picture/as_logo.svg)|Made by **As Project**.|
-|![gaccho](https://Kasugaccho.github.io/DungeonPicture/Picture/gaccho_icon.svg)|Made by Gaccho.|
