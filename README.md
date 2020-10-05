@@ -1,10 +1,8 @@
-﻿# [Simple Voronoi Island(Dungeon Template Library) ](https://github.com/Kasugaccho/DungeonTemplateLibrary)
+# [Voronoi Island (Dungeon Template Library) ](https://github.com/Kasugaccho/DungeonTemplateLibrary)
  
 [<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.ja"><img src="https://img.shields.io/badge/license-CC0-blue.svg"></a> <a href="https://github.com/Kasugaccho/AsLib"><img src="https://img.shields.io/badge/0.1.0-passing-brightgreen.svg"></a>](https://github.com/Kasugaccho/DungeonTemplateLibrary)
 
-[![Logo-GIF](https://kasugaccho.github.io/DungeonPicture/Picture/Logo/logo_color800_2.gif)](https://github.com/Kasugaccho/DungeonTemplateLibrary/wiki/API-reference)
-
-[DTL (Dungeon Template Library)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
+[![Logo-GIF](https://raw.githubusercontent.com/Kasugaccho/DungeonPicture/master/Picture/Logo/logo_color800_2.gif)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
 
 # Compiler
 
@@ -23,9 +21,3 @@
 These codes are licensed under CC0.
 
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)
-
-## Contact
-
-|E-mail:|wanotaitei@gmail.com|
-|:---|:---|
-|![svg](https://Kasugaccho.github.io/DungeonPicture/Picture/as_logo.svg)|Made by **As Project**.|
