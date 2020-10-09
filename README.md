@@ -1,12 +1,10 @@
-# [Voronoi Island (Dungeon Template Library) ](https://github.com/Kasugaccho/DungeonTemplateLibrary)
- 
-[<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.ja"><img src="https://img.shields.io/badge/license-CC0-blue.svg"></a> <a href="https://github.com/Kasugaccho/AsLib"><img src="https://img.shields.io/badge/0.1.0-passing-brightgreen.svg"></a>](https://github.com/Kasugaccho/DungeonTemplateLibrary)
+# [Voronoi Island (Dungeon Template Library) ](https://github.com/Kasugaccho/DungeonTemplateLibrary) [<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.ja"><img src="https://img.shields.io/badge/license-CC0-blue.svg"></a> <a href="https://github.com/Kasugaccho/AsLib"><img src="https://img.shields.io/badge/0.1.0-passing-brightgreen.svg"></a>](https://github.com/Kasugaccho/DungeonTemplateLibrary)
 
 [![Logo-GIF](https://raw.githubusercontent.com/Kasugaccho/DungeonPicture/master/Picture/Logo/logo_color800_2.gif)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
 
 ---
 
-# Compiler
+# Supported Compilers 🔧
 
 |Compiler|Pass_C++14|Test|
 |:---|:---|:---|
@@ -16,7 +14,7 @@
 
 ---
 
-# Overview
+# Generated Image 🖼️
 
 ![voronoi](https://github.com/Kasugaccho/DTL_SimpleVoronoiIsland/blob/master/picture/voronoi.gif)
 
@@ -33,5 +31,6 @@ These codes are licensed under CC0.
 # Related Items 🎮
 
 [![DTL](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/dungeon_template_library.png)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
+[![AsLib](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/aslib.png)](https://github.com/Kasugaccho/AsLib)
 [![GenkaiSyuraku](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/genkai_syuraku.png)](https://github.com/Kasugaccho/GenkaiSyuraku)
 
