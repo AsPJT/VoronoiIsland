@@ -24,7 +24,7 @@
 
 These codes are licensed under CC0.
 
-[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.ja)
+[![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg "CC0")](http://creativecommons.org/publicdomain/zero/1.0/deed.en)
 
 ---
 
@@ -33,4 +33,6 @@ These codes are licensed under CC0.
 [![DTL](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/dungeon_template_library.png)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
 [![AsLib](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/aslib.png)](https://github.com/Kasugaccho/AsLib)
 [![GenkaiSyuraku](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/genkai_syuraku.png)](https://github.com/Kasugaccho/GenkaiSyuraku)
-
+[![MayaGlyph](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/maya_glyph.png)](https://github.com/Kasugaccho/Maya-Glyph)
+[![WhackAMole](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/whack_a_mole.png)](https://github.com/Kasugaccho/Whack-A-Mole)
+[![Roguelike](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/roguelike.png)](https://github.com/Kasugaccho/Roguelike)
