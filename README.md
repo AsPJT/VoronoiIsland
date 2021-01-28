@@ -1,6 +1,6 @@
-# [Voronoi Island (Dungeon Template Library) ](https://github.com/Kasugaccho/DungeonTemplateLibrary)
+# [Voronoi Island (Dungeon Template Library) ](https://github.com/AsPJT/DungeonTemplateLibrary)
 
-[![Logo-GIF](https://raw.githubusercontent.com/Kasugaccho/DungeonPicture/master/Picture/Logo/logo_color800_2.gif)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
+[![Logo-GIF](https://raw.githubusercontent.com/AsPJT/DungeonPicture/master/Picture/Logo/logo_color800_2.gif)](https://github.com/AsPJT/DungeonTemplateLibrary)
 
 ---
 
@@ -14,12 +14,6 @@
 
 ---
 
-# Generated Image 🖼️
-
-![voronoi](https://github.com/Kasugaccho/DTL_SimpleVoronoiIsland/blob/master/picture/voronoi.gif)
-
----
-
 # License
 
 These codes are licensed under CC0.
@@ -30,9 +24,9 @@ These codes are licensed under CC0.
 
 # Related Items 🎮
 
-[![DTL](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/dungeon_template_library.png)](https://github.com/Kasugaccho/DungeonTemplateLibrary)
-[![AsLib](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/aslib.png)](https://github.com/Kasugaccho/AsLib)
-[![GenkaiSyuraku](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/genkai_syuraku.png)](https://github.com/Kasugaccho/GenkaiSyuraku)
-[![MayaGlyph](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/maya_glyph.png)](https://github.com/Kasugaccho/Maya-Glyph)
-[![WhackAMole](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/whack_a_mole.png)](https://github.com/Kasugaccho/Whack-A-Mole)
-[![Roguelike](https://raw.githubusercontent.com/Kasugaccho/Kasugaccho/master/Picture/roguelike.png)](https://github.com/Kasugaccho/Roguelike)
+[![DTL](https://raw.githubusercontent.com/AsPJT/AsPJT/master/Picture/dungeon_template_library.png)](https://github.com/AsPJT/DungeonTemplateLibrary)
+[![AsLib](https://raw.githubusercontent.com/AsPJT/AsPJT/master/Picture/aslib.png)](https://github.com/AsPJT/AsLib)
+[![GenkaiSyuraku](https://raw.githubusercontent.com/AsPJT/AsPJT/master/Picture/genkai_syuraku.png)](https://github.com/AsPJT/GenkaiSyuraku)
+[![MayaGlyph](https://raw.githubusercontent.com/AsPJT/AsPJT/master/Picture/maya_glyph.png)](https://github.com/AsPJT/Maya-Glyph)
+[![WhackAMole](https://raw.githubusercontent.com/AsPJT/AsPJT/master/Picture/whack_a_mole.png)](https://github.com/AsPJT/Whack-A-Mole)
+[![Roguelike](https://raw.githubusercontent.com/AsPJT/AsPJT/master/Picture/roguelike.png)](https://github.com/AsPJT/Roguelike)
